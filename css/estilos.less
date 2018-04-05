@@ -2,6 +2,11 @@
 @cor-padrao:green;
 @cor-auxiliar: #1e2c35;
 @cor-branca:white;
+@raio-da-borda: 0.3;
+.borda-arredondada {
+  -webkit-border-radius: @raio-da-borda;
+    border-radius: @raio-da-borda;
+}
 
 /** Geral **/
 body {
@@ -100,8 +105,7 @@ body {
     border: 0;
     padding: .6em;
     font-size: 1.2em;
-    -webkit-border-radius: 0.3em;
-    border-radius: 0.3em;
+    .borda-arredondada;
     box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
     font-weight: bold;
   }
@@ -233,8 +237,7 @@ body {
     width: 210px;
     height: 38px;
     font-size: 1.2em;
-    -webkit-border-radius: 0.3em;
-    border-radius: 0.3em;
+    .borda-arredondada;
     box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
     margin-left: 2em;
   }
@@ -318,8 +321,7 @@ body {
     width: 100%;
     margin-bottom: .8em;
     padding: 4px 8px;
-    -webkit-border-radius: 0.3em;
-    border-radius: 0.3em;
+    .borda-arredondada;
     border: 2px solid #ccc;
   }
   
@@ -331,8 +333,7 @@ body {
     width: 210px;
     height: 38px;
     font-size: 1.2em;
-    -webkit-border-radius: 0.3em;
-    border-radius: 0.3em;
+    .borda-arredondada;
     box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   }
   
