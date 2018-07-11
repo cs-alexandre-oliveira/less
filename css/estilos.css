@@ -1,7 +1,7 @@
-/*Inicio do LESS*/
-.borda-arredondada {
-  -webkit-border-radius: 0.3;
-  border-radius: 0.3;
+/** Variaiveis **/
+/** Mixins **/
+.sombra-padrao {
+  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
 }
 /** Geral **/
 body {
@@ -84,8 +84,9 @@ header .container {
   border: 0;
   padding: .6em;
   font-size: 1.2em;
-  -webkit-border-radius: 0.3;
-  border-radius: 0.3;
+  -webkit-border-radius: 2em;
+  -o-border-radius: 2em;
+  border-radius: 2em;
   box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   font-weight: bold;
 }
@@ -193,8 +194,9 @@ header .container {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  -webkit-border-radius: 0.3;
-  border-radius: 0.3;
+  -webkit-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  border-radius: 0.3em;
   box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   margin-left: 2em;
 }
@@ -264,8 +266,9 @@ textarea {
   width: 100%;
   margin-bottom: .8em;
   padding: 4px 8px;
-  -webkit-border-radius: 0.3;
-  border-radius: 0.3;
+  -webkit-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  border-radius: 0.3em;
   border: 2px solid #ccc;
 }
 .contato button {
@@ -276,8 +279,9 @@ textarea {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  -webkit-border-radius: 0.3;
-  border-radius: 0.3;
+  -webkit-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  border-radius: 0.3em;
   box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
 }
 /** Footer **/
